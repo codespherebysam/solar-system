@@ -9,7 +9,7 @@ function loadTexture(url) {
     return textureLoader.load(url);
 }
 
-// 🌟 Massive Star Field (Increased to 300,000 stars!)
+// 🌟 Massive Star Field (Increased to 6999999 stars!)
 const starGeometry = new THREE.BufferGeometry();
 const starVertices = [];
 for (let i = 0; i < 6999999; i++) {  // Fully packed starry background
